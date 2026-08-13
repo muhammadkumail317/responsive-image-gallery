@@ -58,7 +58,7 @@ Image-Gallery/
 
 ### 🏠 Home Page
 
-![Home Page](assets/homepage.PNG)
+![Home Page](assets/home.PNG)
 
 ---
 
