@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Website Title -->
+    <title>Responsive Image Gallery</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==== Preloader ==== -->
+
+    <div id="preloader">
+
+        <div class="loader">
+
+            <i class="fa-solid fa-camera-retro"></i>
+
+            <h2>Image Gallery</h2>
+
+        </div>
+
+    </div>
+
+    <!-- ==== Header / Navigation ==== -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <i class="fa-solid fa-camera-retro"></i>
+                <span>Image Gallery</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#footer">About</a></li>
+            </ul>
+            <div class="theme-toggle">
+
+                <i class="fa-solid fa-moon"></i>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- ==== Hero Section ==== -->
+    <section class="hero reveal">
+
+        <h2>Explore Beautiful Moments</h2>
+        <p>
+            Discover stunning images from different categories around the world.
+        </p>
+        <div class="hero-line">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- ==== Filter Buttons ==== -->
+    <section class="filter-section reveal">
+
+        <button class="filter-btn active" data-filter="all">All</button>
+
+        <button class="filter-btn" data-filter="nature">Nature</button>
+
+        <button class="filter-btn" data-filter="cities">Cities</button>
+
+        <button class="filter-btn" data-filter="animals">Animals</button>
+
+        <button class="filter-btn" data-filter="cars">Cars</button>
+    </section>
+
+    <!-- ==== Image Gallery ==== -->
+    <main class="gallery reveal">
+
+        <!-- Nature -->
+        <div class="gallery-item" data-category="nature">
+
+            <img src="images/nature/nature 1.jfif" alt="Nature">
+
+            <div class="overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+
+            <img src="images/nature/nature 2.jfif" alt="Nature">
+
+            <div class="overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+
+            <img src="images/nature/nature 3.jfif" alt="Nature">
+
+            <div class="overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+
+        </div>
+
+        <div class="gallery-item" data-category="cities">
+
+            <img src="images/cities/city 1.jfif" alt="cities">
+
+            <div class="overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+
+        </div>
+
+        <div class="gallery-item" data-category="cities">
+
+            <img src="images/cities/city 2.jfif" alt="cities">
+
+            <div class="overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+
+        </div>
+
+        <div class="gallery-item" data-category="cities">
+
+            <img src="images/cities/city 3.jfif" alt="cities">
+
+            <div class="overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+
+            <img src="images/animals/animal 1.jpg" alt="animals">
+
+            <div class="overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+
+            <img src="images/animals/animal 2.jfif" alt="animals">
+
+            <div class="overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+
+            <img src="images/animals/animal 3.jfif" alt="animals">
+
+            <div class="overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+
+        </div>
+
+        <div class="gallery-item" data-category="cars">
+
+            <img src="images/cars/car 1.jfif" alt="cars">
+
+            <div class="overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+
+        </div>
+
+        <div class="gallery-item" data-category="cars">
+
+            <img src="images/cars/car 2.jfif" alt="cars">
+
+            <div class="overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+
+        </div>
+
+        <div class="gallery-item" data-category="cars">
+
+            <img src="images/cars/car 3.jfif" alt="cars">
+
+            <div class="overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- ==== Lightbox ==== -->
+
+    <div class="lightbox">
+
+        <span class="close">&times;</span>
+
+        <button class="prev">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="lightbox-content">
+
+            <img class="lightbox-image" src="" alt="">
+
+            <div class="image-counter">
+                <span id="current-image">1</span>
+                /
+                <span id="total-images">12</span>
+            </div>
+
+        </div>
+
+        <button class="next">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+    </div>
+
+    <!-- ==== Footer ==== -->
+    <footer id="footer" class="reveal">
+
+        <h3>Image Gallery</h3>
+
+        <p>
+            A responsive image gallery built using HTML, CSS, and JavaScript.
+        </p>
+
+        <div class="footer-social">
+
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Ahmad Ali | CodeAlpha Frontend Internship
+        </p>
+
+    </footer>
+
+    <button id="topBtn">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
