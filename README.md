@@ -63,9 +63,7 @@ Image-Gallery/
 ---
 
 ### 🔍 Lightbox
-
-_Add your lightbox screenshot here._
-![Lightbox](assets/lightbox.png)
+![Lightbox](assets/lightbox.PNG)
 ---
 
 ---
