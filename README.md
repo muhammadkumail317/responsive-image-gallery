@@ -1,6 +1,6 @@
 # 📷 Responsive Image Gallery
 
-A modern and responsive Image Gallery built using **HTML5, CSS3, and JavaScript** as part of my **CodeAlpha Frontend Development Internship**.
+A modern responsive image gallery built with HTML, CSS, and JavaScript during my CodeAlpha Frontend Development Internship. Features include category filtering, lightbox navigation, dark/light mode, animations, and a responsive design.
 
 The project features category filtering, a professional lightbox, dark/light theme support, smooth animations, and a fully responsive design.
 
@@ -58,31 +58,13 @@ Image-Gallery/
 
 ### 🏠 Home Page
 
-![home page](ass)
-
----
-
-### 🖼️ Gallery
-
-_Add your gallery screenshot here._
+![Home Page](assets/homepage.PNG)
 
 ---
 
 ### 🔍 Lightbox
-
-_Add your lightbox screenshot here._
-
+![Lightbox](assets/lightbox.PNG)
 ---
-
-### 🌙 Dark Theme
-
-_Add your dark theme screenshot here._
-
----
-
-### ☀️ Light Theme
-
-_Add your light theme screenshot here._
 
 ---
 
@@ -91,7 +73,7 @@ _Add your light theme screenshot here._
 1. Download or clone this repository.
 
 ```
-git clone https://github.com/yourusername/image-gallery.git
+git clone https://github.com/muhammadkumail317/image-gallery.git
 ```
 
 2. Open the project folder.
